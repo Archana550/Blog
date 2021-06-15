@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+
+p,h4{
+  font-family: 'Patrick Hand', cursive;
+  
+  
+}
+
+.jumbotron{
+  margin-top: 50px;
+}
+
+.padding-foo{
+  margin-bottom: 200px;
+
+}
+.padding{
+  padding-bottom: 5px;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding:5px;
+ 
+}
