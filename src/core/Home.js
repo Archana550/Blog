@@ -31,7 +31,7 @@ const Home = () => {
               <div key={index} className="col-4 mb-4">
               <p>{index +1}.</p>
                 <Card post={posts} />
-                <hr />
+                <hr id="hr-front" />
               </div>
             );
           })}

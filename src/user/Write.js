@@ -104,6 +104,7 @@ const Write = () => {
                 onChange={handleChange("title")}
                 type="text"
                 value={title}
+                placeholder="Title of the blog"
               />
             </div>
             <div className="form-group">
@@ -115,6 +116,7 @@ const Write = () => {
                 type="text"
                 // value={this.state.name ||''}
                 value={content}
+                placeholder="Content"
               />
             </div>
 
@@ -126,6 +128,7 @@ const Write = () => {
                 className="form-control"
                 type="text"
                 value={conclusion}
+                placeholder="conclusion"
               />
             </div>
             <div className="form-group">
@@ -134,6 +137,7 @@ const Write = () => {
                 onChange={handleChange("category")}
                 className="form-control"
                 placeholder="Category"
+                
               >
                 <option>Select</option>
                 {categories &&

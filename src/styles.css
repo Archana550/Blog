@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 
 
-p,h4{
+p,h4,label,h2,h1,h3{
   font-family: 'Patrick Hand', cursive;
   
   
+}
+::placeholder { /* IE 10+ */
+  color: pink;
 }
 
 .jumbotron{
@@ -26,3 +29,51 @@ footer {
   padding:5px;
  
 }
+
+.bg-img{
+  background-image:url("./blog-pic.jpg");
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 300px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+}
+
+
+.delete-icon{
+  font-size: 3rem;
+  color:gray;
+  
+}
+.delete-icon:hover{
+  font-size: 3.1rem;
+  color:red;
+  
+}
+
+.update-icon{
+  font-size: 3rem;
+  color:gray;
+}
+.update-icon:hover{
+  font-size: 3.1rem;
+  color:rgb(31, 143, 207);
+}
+
+hr{
+  
+  border-top: 1.5px solid red;
+}
+
+#hr-front{
+  width:50%;
+  border-top: 1.5px solid red;
+}
+
+.singlepostview{
+  background-color:rgba(138, 171, 233,0.3);
+}
+
+
+
+

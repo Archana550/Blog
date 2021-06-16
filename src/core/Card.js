@@ -1,7 +1,6 @@
 import React from "react";
 
-import {  Link } from "react-router-dom";
-
+import { Link } from "react-router-dom";
 
 const Card = ({ post }) => {
   const postTitle = post ? post.title : "A blog title";
@@ -12,18 +11,13 @@ const Card = ({ post }) => {
   return (
     <div className="card  ">
       <div className="card-header lead">
-        <h4 className="text-muted">
-          {postTitle}
-        
-        </h4>
-     
+        <h4 className="text-muted">{postTitle}</h4>
       </div>
       <div className="card-body">
-      
-    
-      <Link to={`/post/${post._id}`}><button className="btn btn-warning">
-         Read Blog
-        </button></Link>
+        <Link to={`/post/${post._id}`}>
+          <button className="btn btn-warning">Read Blog</button>
+        </Link>
+        
       </div>
     </div>
   );
